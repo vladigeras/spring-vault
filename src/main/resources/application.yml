@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+vault:
+  host: ${VAULT_HOST:localhost}
+  port: ${VAULT_PORT:8200}
+  token: ${VAULT_TOKEN:s.riRPI4wwjXNBxWgvraiJ96q1}
